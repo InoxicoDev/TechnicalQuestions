@@ -1,9 +1,15 @@
-﻿namespace Inoxico.TechnicalQuestions.Answers;
-
-public class QuestionOne
-{   
-    public static int GetLongestSentance(string s)
+﻿
+namespace Inoxico.TechnicalQuestions.Answers
+{
+    public class QuestionOne
     {
-        throw new NotImplementedException();
+        public static int GetLongestSentance(string s)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
+
+
+
+

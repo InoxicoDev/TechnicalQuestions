@@ -1,9 +1,11 @@
-﻿namespace Inoxico.TechnicalQuestions.Answers;
-
-public class QuestionTwo
+﻿
+namespace Inoxico.TechnicalQuestions.Answers
 {
-    public static int GetPitDepth(int[] points)
+    public class QuestionTwo
     {
-        throw new NotImplementedException();
+        public static int GetPitDepth(int[] points)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
