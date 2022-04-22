@@ -6,12 +6,12 @@ namespace Inoxico.TechnicalQuestions.Tests
     public class QuestionOneTests
     {
         [Fact]
-        public void BasicNominalTest()
+        public void ExampleTest()
         {
-            var input = $"Forget CVs..Save time . x x";
+            var input = $"We test coders. Give us a try?";
             var outcome = QuestionOne.GetLongestSentance(input);
 
-            Assert.Equal(2, outcome);
+            Assert.Equal(4, outcome);
         }
     }
 }
